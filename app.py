@@ -13,7 +13,7 @@ from google.genai import types
 from pydantic import BaseModel, Field
 from pypdf import PdfReader
 
-DEFAULT_MODEL = "gemini-3.8-flash"
+DEFAULT_MODEL = "gemini-2.5-flash"
 MAX_CHARS = 30000  # safety limit on resume text sent to the model
 MIN_CHARS = 150  # below this the file is probably scanned / empty
 
